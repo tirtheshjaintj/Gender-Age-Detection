@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 import os
 import pandas as pd
 import datetime
@@ -173,7 +172,6 @@ while True:
 
     # Update the gender distribution plot
     plot_gender_distribution()
-
     cv2.imshow('Age & Gender Detection', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
